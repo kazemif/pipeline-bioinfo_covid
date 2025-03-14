@@ -1,0 +1,14 @@
+name: covid_pipeline
+channels:
+   - bioconda
+   - conda-forge
+dependencies:
+   - minimap2=2.28
+   - python=3.7.12 
+   - cutadapt=2.6
+   - samtools=1.6
+   - bcftools=1.9
+   - bedtools=2.31.1
+   - nextflow=24.10.4
+   
+   
